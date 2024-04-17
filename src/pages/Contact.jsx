@@ -16,7 +16,7 @@ const Contact = () => {
             Contact us
           </h1>
           <p className="text-white text-lg max-sm:text-base w-[90%] leading-normal max-sm:w-full">
-            Contact Axys Systems and Solutions Limited for tailored solutions
+            Contact Axys Systems & Solutions Limited for tailored solutions
             and expert guidance. Let&apos;s turn your vision into reality
             together
           </p>

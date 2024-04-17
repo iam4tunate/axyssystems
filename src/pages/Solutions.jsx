@@ -15,7 +15,7 @@ const Solutions = () => {
             Our Solutions
           </h1>
           <p className="text-white text-lg max-sm:text-base w-[90%] leading-normal max-sm:w-full">
-            Axys Systems and Solutions Limited is a wholly owned Nigerian
+            Axys Systems & Solutions Limited is a wholly owned Nigerian
             Company, incorporated under Company and Allied Matters Act, CAMA,
             1990 in June, 2011.
           </p>

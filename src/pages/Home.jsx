@@ -24,7 +24,7 @@ const Home = () => {
             </span>
             <br className="sm:hidden" />
             <span className="text-white">
-              Welcome to Axys Systems and Solutions Limited
+              Welcome to Axys Systems & Solutions Limited
             </span>
           </h1>
           <p className="text-white text-2xl max-sm:text-lg max-[370px]:text-sm w-[70%] max-md:w-[90%] max-sm:w-full">
@@ -36,10 +36,10 @@ const Home = () => {
       {/* INTRODUCTION  */}
       <div className="maxW text-center pt-16 pb-12 padX">
         <h3 className="text-primary text-2xl font-clashSemibold pb-4">
-          Welcome to Axys Systems and Solutions Limited
+          Welcome to Axys Systems & Solutions Limited
         </h3>
         <p className="">
-          At Axys Systems and Solutions Limited, we are committed to shaping a
+          At Axys Systems & Solutions Limited, we are committed to shaping a
           better tomorrow through our multi-dimensional capabilities and
           far-reaching solutions. With a sterling reputation for qualitative and
           timely delivery, we excel in various areas of human endeavor.
