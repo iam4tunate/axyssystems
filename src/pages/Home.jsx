@@ -27,7 +27,7 @@ const Home = () => {
               Welcome to Axys Systems & Solutions Limited
             </span>
           </h1>
-          <p className="text-white text-2xl max-sm:text-lg max-[370px]:text-sm w-[70%] max-md:w-[90%] max-sm:w-full">
+          <p className="text-white text-2xl max-sm:text-lg max-[370px]:text-base w-[70%] max-md:w-[90%] max-sm:w-full">
             From Security Solutions to Brand Development, we&apos;re your
             partner for holistic growth and innovation.
           </p>
