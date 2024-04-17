@@ -43,26 +43,26 @@ const About = () => {
         <h3 className="text-primary text-2xl font-clashSemibold pb-4">
           Our Core Values
         </h3>
-        <div className="flex flex-wrap items-center gap-x-12 gap-y-4 justify-center">
+        <div className="flex flex-wrap items-center gap-x-14 gap-y-5 justify-center">
           <div className="flex items-center gap-x-2">
             <img src={FLAG} alt="" />
-            <span>Customer and client focus</span>
+            <span className="text-lg">Customer and client focus</span>
           </div>
           <div className="flex items-center gap-x-2">
             <img src={FLAG} alt="" />
-            <span>Goal focus</span>
+            <span className="text-lg">Goal focus</span>
           </div>
           <div className="flex items-center gap-x-2">
             <img src={FLAG} alt="" />
-            <span>Dynamism and proactiveness</span>
+            <span className="text-lg">Dynamism and proactiveness</span>
           </div>
           <div className="flex items-center gap-x-2">
             <img src={FLAG} alt="" />
-            <span>Efficient and effective service delivery</span>
+            <span className="text-lg">Efficient and effective service delivery</span>
           </div>
           <div className="flex items-center gap-x-2">
             <img src={FLAG} alt="" />
-            <span>Teamwork</span>
+            <span className="text-lg">Teamwork</span>
           </div>
         </div>
       </div>

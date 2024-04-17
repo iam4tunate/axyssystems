@@ -30,7 +30,7 @@ const Contact = () => {
             <h3 className="text-primary text-2xl font-clashSemibold pb-4 uppercase">
               Let&apos;s have a talk
             </h3>
-            <p className="text-lg">
+            <p className="text-lg max-sm:text-base">
               Questions, comments, or suggestions? Simply fill in the form and
               we’ll be in touch shortly.
             </p>
@@ -43,11 +43,11 @@ const Contact = () => {
             </span>
             <span className="flex items-center gap-x-2 pb-5">
               <FiPhoneCall className="text-xl text-primary" />
-              <span>+2349166744744</span>
+              <span className="tracking-wider">+2349166744744</span>
             </span>
             <span className="flex items-center gap-x-2">
               <MdMailOutline className="text-xl text-primary" />
-              <span>info@axyssystem.com</span>
+              <span>info@axyssystems.com</span>
             </span>
           </div>
           <div className="shadow-lg rounded-2xl">
