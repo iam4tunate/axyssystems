@@ -4,6 +4,7 @@ import BANNER from "../assets/images/banner-home.png";
 import CORE1 from "../assets/images/core1.png";
 import CORE2 from "../assets/images/core2.png";
 import CORE3 from "../assets/images/core3.png";
+import CORE4 from "../assets/images/core4.png";
 import CLIENT1 from "../assets/images/cubegroup.png";
 import CLIENT2 from "../assets/images/image1.png";
 import CLIENT3 from "../assets/images/image2.png";
@@ -28,8 +29,8 @@ const Home = () => {
             </span>
           </h1>
           <p className="text-white text-2xl max-sm:text-lg max-[370px]:text-base w-[70%] max-md:w-[90%] max-sm:w-full">
-            From Security Solutions to Brand Development, we&apos;re your
-            partner for holistic growth and innovation.
+            From Digital solutions to brand development, we&apos;re your partner
+            from start-up, innovation, and holistic growth.
           </p>
         </div>
       </div>
@@ -52,6 +53,21 @@ const Home = () => {
         </div>
         <RxArrowDown className="mx-auto text-3xl max-md:text-2xl mt-2" />
         <div className="space-y-24 max-lg:space-y-20 max-md:space-y-16 max-sm:space-y-12 pt-8">
+          <div className="">
+            <h2 className="text-primary text-2xl font-clashSemibold pb-2">
+              Software Digital Solutions Development, Deployment and Support:
+            </h2>
+            <p className="">
+              Axys Systems & Solutions Limited specializes in delivering
+              comprehensive software digital solutions to empower businesses in
+              the digital era. With a focus on development, deployment, and
+              ongoing support, we offer customized solutions tailored to meet
+              the unique needs of our clients. Our team of skilled professionals
+              combines cutting-edge technology with industry expertise to create
+              scalable and robust software solutions.
+            </p>
+            <img src={CORE4} alt="" className="mt-4" />
+          </div>
           <div className="">
             <h2 className="text-primary text-2xl font-clashSemibold pb-2">
               Business Development and Process Re-engineering:

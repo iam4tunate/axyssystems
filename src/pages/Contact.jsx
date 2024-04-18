@@ -24,7 +24,7 @@ const Contact = () => {
       </div>
 
       {/* CONTACT FORM  */}
-      <div className="max-w-screen-lg mx-auto py-16 padX">
+      <div className="max-w-screen-xl mx-auto py-16 padX">
         <div className="grid grid-cols-[40%_50%] max-md:grid-cols-1 max-md:gap-y-8 items-start justify-between gap-x-12">
           <div className="max-md:w-[70%] max-sm:w-full">
             <h3 className="text-primary text-2xl font-clashSemibold pb-4 uppercase">
@@ -50,10 +50,10 @@ const Contact = () => {
               <span>info@axyssystems.com</span>
             </span>
           </div>
-          <div className="shadow-lg rounded-2xl">
-            <form className="space-y-6 px-6 py-6">
-              <div className="grid grid-cols-2 max-sm:grid-cols-1 space-y-6 gap-x-3">
-                <input
+          <div className="shadow-lg rounded-2xl px-10 py-6">
+            <form className="space-y-6">
+              <div className="grid grid-cols-2 max-md:grid-cols-1 gap-y-6 gap-x-3">
+              <input
                   type="text"
                   className="outline-none border border-secondary rounded-md py-2 px-2 w-full placeholder:font-geistLight"
                   placeholder="First name"
