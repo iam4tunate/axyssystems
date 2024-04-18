@@ -5,10 +5,15 @@ import CORE1 from "../assets/images/core1.png";
 import CORE2 from "../assets/images/core2.png";
 import CORE3 from "../assets/images/core3.png";
 import CORE4 from "../assets/images/core4.png";
-import CLIENT1 from "../assets/images/cubegroup.png";
-import CLIENT2 from "../assets/images/image1.png";
-import CLIENT3 from "../assets/images/image2.png";
-import CLIENT4 from "../assets/images/image3.png";
+import cubegroup from "../assets/images/cubegroup.png";
+import secureID from "../assets/images/secureID.png";
+import roaddynamics from "../assets/images/roadDynamics.png";
+import abujacourt from "../assets/images/abujacourt.png";
+import osunstate from "../assets/images/osunstate.png";
+import ferma from "../assets/images/ferma.png";
+import fhc from "../assets/images/fhc.png";
+import heirs from "../assets/images/heirs.png";
+import Marquee from "react-fast-marquee";
 
 const Home = () => {
   return (
@@ -108,16 +113,52 @@ const Home = () => {
         </div>
       </div>
       {/* OUR CLIENTS/PATNERS */}
-      <div className="maxW text-center pt-16 pb-12 padX">
-        <h3 className="text-primary text-2xl font-clashSemibold pb-8">
+      <div className="pt-12 pb-16">
+        <h3 className="text-primary text-2xl font-clashSemibold pb-8 text-center mx-auto padX">
           OUR CLIENTS/PATNERS
         </h3>
-        <div className="flex flex-wrap gap-y-12 items-center justify-center gap-x-12 w-fit mx-auto text-center ">
-          <img src={CLIENT4} alt="" className="w-[5rem] max-md:w-[4rem]" />
-          <img src={CLIENT1} alt="" className="w-[16rem] max-md:w-[12rem]" />
-          <img src={CLIENT2} alt="" className="w-[5rem] max-md:w-[4rem]" />
-          <img src={CLIENT3} alt="" className="w-[5rem] max-md:w-[4rem]" />
-        </div>
+        <Marquee className="space-x-20">
+          <img
+            src={osunstate}
+            alt=""
+            className="w-[7rem] max-sm:w-[6rem]  mr-20 max-md:mr-16"
+          />
+          <img
+            src={cubegroup}
+            alt=""
+            className="w-[16rem] max-sm:w-[12rem] mr-20 max-md:mr-16"
+          />
+          <img
+            src={fhc}
+            alt=""
+            className="w-[5rem] mr-20 max-md:mr-16"
+          />
+          <img
+            src={heirs}
+            alt=""
+            className="w-[10rem] max-sm:w-[9rem] mr-20 max-md:mr-16"
+          />
+          <img
+            src={abujacourt}
+            alt=""
+            className="w-[16rem] mr-20 max-md:mr-16"
+          />
+          <img
+            src={ferma}
+            alt=""
+            className="w-[5rem] mr-20 max-md:mr-16"
+          />
+          <img
+            src={roaddynamics}
+            alt=""
+            className="w-[5rem] mr-20 max-md:mr-16"
+          />
+          <img
+            src={secureID}
+            alt=""
+            className="w-[12rem] py-2 px-4 bg-black"
+          />
+        </Marquee>
       </div>
     </Layout>
   );

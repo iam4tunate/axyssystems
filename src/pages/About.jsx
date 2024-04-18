@@ -19,9 +19,9 @@ const About = () => {
             About Us
           </h1>
           <p className="text-white text-lg max-sm:text-base w-[90%] leading-normal max-sm:w-full">
-            Axys Systems & Solutions Limited is a wholly owned Nigerian
-            Company, incorporated under Company and Allied Matters Act, CAMA,
-            1990 in June, 2011.
+            Axys Systems & Solutions Limited is a wholly owned Nigerian Company,
+            incorporated under Company and Allied Matters Act, CAMA, 1990 in
+            June, 2011.
           </p>
         </div>
       </div>
@@ -58,7 +58,9 @@ const About = () => {
           </div>
           <div className="flex items-center gap-x-2">
             <img src={FLAG} alt="" />
-            <span className="text-lg">Efficient and effective service delivery</span>
+            <span className="text-lg">
+              Efficient and effective service delivery
+            </span>
           </div>
           <div className="flex items-center gap-x-2">
             <img src={FLAG} alt="" />
@@ -77,8 +79,8 @@ const About = () => {
               alt="Moyosola Niran-Oladunni"
               className="w-[15rem] mx-auto"
             />
-            <p className="pb-2 pt-1">Moyosola Niran-Oladunni</p>
-            <p className="font-geistSemibold text-primary">MD/CEO</p>
+            <p className="py-1">Moyosola Niran-Oladunni</p>
+            <p className="font-geistSemibold text-primary text-sm">MD/CEO</p>
           </figure>
           <figure className="bg-[#022639] text-white w-full px-6 py-5 rounded-lg">
             <img
@@ -86,8 +88,8 @@ const About = () => {
               alt="Moyosola Niran-Oladunni"
               className="w-[15rem] mx-auto"
             />
-            <p className="pb-2 pt-1">Edwin Evbie</p>
-            <p className="font-geistSemibold text-primary">COO</p>
+            <p className="py-1">Edwin Evbie</p>
+            <p className="font-geistSemibold text-primary text-sm">COO</p>
           </figure>
           <figure className="bg-[#022639] text-white w-full px-6 py-5 rounded-lg">
             <img
@@ -95,8 +97,8 @@ const About = () => {
               alt="Moyosola Niran-Oladunni"
               className="w-[15rem] mx-auto"
             />
-            <p className="pb-2 pt-1">Victoria Fatu Ayoade</p>
-            <p className="font-geistSemibold text-primary">
+            <p className="py-1">Victoria Fatu Ayoade</p>
+            <p className="font-geistSemibold text-primary text-sm">
               Corporate Governance
             </p>
           </figure>
@@ -106,8 +108,8 @@ const About = () => {
               alt="Moyosola Niran-Oladunni"
               className="w-[15rem] mx-auto"
             />
-            <p className="pb-2 pt-1">Oladapo Oladunni</p>
-            <p className="font-geistSemibold text-primary">Head, BD strategy</p>
+            <p className="py-1">Oladapo Oladunni</p>
+            <p className="font-geistSemibold text-primary text-sm">Head, BD strategy</p>
           </figure>
         </div>
       </div>
