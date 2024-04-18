@@ -117,7 +117,7 @@ const Home = () => {
         <h3 className="text-primary text-2xl font-clashSemibold pb-8 text-center mx-auto padX">
           OUR CLIENTS/PATNERS
         </h3>
-        <Marquee className="space-x-20">
+        <Marquee className="space-x-20" direction="right">
           <img
             src={osunstate}
             alt=""

@@ -14,6 +14,9 @@ const Footer = () => {
             hospitality. Your partner in brand development, market domination
             and revenue expansion.
           </p>
+          <p className="pt-3 text-primary text-sm">
+            CAC Reg No: <span className="tracking-wider">961438</span>
+          </p>
           <p className="block text-primary pt-12 max-lg:pt-6 max-sm:pt-2 text-sm">
             Copyright &copy; 2024 All Right Reserved
           </p>
