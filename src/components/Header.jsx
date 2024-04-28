@@ -5,7 +5,7 @@ import { LiaTimesSolid } from "react-icons/lia";
 
 const Header = ({ mobileMenu, setMobileMenu }) => {
   return (
-    <header className="bg-[#021927] h-20 flex items-center fixed right-0 left-0">
+    <header className="bg-secondary h-20 flex items-center fixed right-0 left-0">
       <div className="padX max-w-screen-2xl mx-auto w-full flex items-center justify-between">
         <Link to="/">
           <img src={LOGO} alt="" className="w-[7rem]" />

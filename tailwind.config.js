@@ -10,8 +10,7 @@ export default {
         geistLight: ["geist-light", "sans-serif"],
       },
       colors: {
-        // secondary: "#01161E",[#022639]
-        secondary: "#000609",
+        secondary: "#021927",
         primary: "#D55707",
       },
     },

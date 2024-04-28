@@ -13,7 +13,10 @@ import osunstate from "../assets/images/osunstate.png";
 import ferma from "../assets/images/ferma.png";
 import fhc from "../assets/images/fhc.png";
 import heirs from "../assets/images/heirs.png";
-import Marquee from "react-fast-marquee";
+import zenith from "../assets/images/zenith.png";
+import wema from "../assets/images/wema.svg";
+import providus from "../assets/images/providus.png";
+// import Marquee from "react-fast-marquee";
 
 const Home = () => {
   return (
@@ -113,11 +116,48 @@ const Home = () => {
         </div>
       </div>
       {/* OUR CLIENTS/PATNERS */}
-      <div className="pt-12 pb-16">
+      <div className="pt-12 pb-16 bg-gray-200">
         <h3 className="text-primary text-2xl font-clashSemibold pb-8 text-center mx-auto padX">
           OUR CLIENTS/PATNERS
         </h3>
-        <Marquee className="space-x-20">
+        <div className="max-w-screen-md mx-auto flex flex-wrap items-center justify-center gap-x-10 gap-y-12">
+          <img
+            src={osunstate}
+            alt=""
+            className="w-[7rem] max-md:w-[6rem]"
+          />
+          <img
+            src={cubegroup}
+            alt=""
+            className="w-[16rem] max-md:w-[10rem]"
+          />
+          <img src={fhc} alt="" className="w-[6rem] max-md:w-[5rem]" />
+          <img
+            src={heirs}
+            alt=""
+            className="w-[10rem] max-md:w-[9rem]"
+          />
+          <img
+            src={zenith}
+            alt=""
+            className="w-[6rem] max-md:w-[5rem]"
+          />
+          <img
+            src={abujacourt}
+            alt=""
+            className="w-[16rem]"
+          />
+          <img src={ferma} alt="" className="w-[6rem]" />
+          <img src={wema} alt="" className="w-[10rem]" />
+          <img
+            src={roaddynamics}
+            alt=""
+            className="w-[6rem] max-md:w-[5rem]"
+          />
+          <img src={secureID} alt="" className="w-[12rem] py-2 px-4 bg-black" />
+          <img src={providus} alt="" className="w-[12rem] max-md:w-[10rem]" />
+        </div>
+        {/* <Marquee className="space-x-20">
           <img
             src={osunstate}
             alt=""
@@ -158,7 +198,7 @@ const Home = () => {
             alt=""
             className="w-[12rem] py-2 px-4 bg-black"
           />
-        </Marquee>
+        </Marquee> */}
       </div>
     </Layout>
   );

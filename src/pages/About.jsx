@@ -38,33 +38,51 @@ const About = () => {
           scope encompasses development solutions both locally in Africa and on
           a global scale.
         </p>
+        <p className="py-6">
+          <span className="text-primary font-geistSemibold text-xl block pb-1">
+            Our Mission:
+          </span>
+          Fostering secure and sustainable brand development while promoting
+          environments,communities, and businesses to thrive.
+        </p>
+        <p className="">
+          <span className="text-primary font-geistSemibold text-xl block pb-1">
+            Our Vision:
+          </span>
+          To pioneer and revolutionize innovative IT solutions and
+          infrastructure.
+        </p>
       </div>
       <div className="maxW padX text-center pt-16 pb-16 padX">
         <h3 className="text-primary text-2xl font-clashSemibold pb-4">
           Our Core Values
         </h3>
-        <div className="flex flex-wrap items-center gap-x-14 gap-y-5 justify-center">
+        <div className="flex flex-wrap items-center max-sm:justify-start max-sm:text-left gap-x-14 gap-y-5 justify-center">
           <div className="flex items-center gap-x-2">
             <img src={FLAG} alt="" />
-            <span className="text-lg">Customer and client focus</span>
+            <span className="text-lg max-sm:text-base">
+              Customer and client focus
+            </span>
           </div>
           <div className="flex items-center gap-x-2">
             <img src={FLAG} alt="" />
-            <span className="text-lg">Goal focus</span>
+            <span className="text-lg max-sm:text-base">Goal focus</span>
           </div>
           <div className="flex items-center gap-x-2">
             <img src={FLAG} alt="" />
-            <span className="text-lg">Dynamism and proactiveness</span>
+            <span className="text-lg max-sm:text-base">
+              Dynamism and proactiveness
+            </span>
           </div>
           <div className="flex items-center gap-x-2">
             <img src={FLAG} alt="" />
-            <span className="text-lg">
+            <span className="text-lg max-sm:text-base">
               Efficient and effective service delivery
             </span>
           </div>
           <div className="flex items-center gap-x-2">
             <img src={FLAG} alt="" />
-            <span className="text-lg">Teamwork</span>
+            <span className="text-lg max-sm:text-base">Teamwork</span>
           </div>
         </div>
       </div>
@@ -72,8 +90,8 @@ const About = () => {
         <h3 className="text-primary text-2xl font-clashSemibold pb-4">
           The Team
         </h3>
-        <div className="grid grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 items-center gap-x-16 gap-y-4 justify-center">
-          <figure className="bg-[#022639] text-white w-full px-6 py-5 rounded-lg">
+        <div className="grid grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 items-center gap-x-8 gap-y-4 justify-center">
+          <figure className="bg-secondary text-white w-full px-6 py-5 rounded-lg">
             <img
               src={TEAM1}
               alt="Moyosola Niran-Oladunni"
@@ -82,7 +100,7 @@ const About = () => {
             <p className="py-1">Moyosola Niran-Oladunni</p>
             <p className="font-geistSemibold text-primary text-sm">MD/CEO</p>
           </figure>
-          <figure className="bg-[#022639] text-white w-full px-6 py-5 rounded-lg">
+          <figure className="bg-secondary text-white w-full px-6 py-5 rounded-lg">
             <img
               src={TEAM2}
               alt="Moyosola Niran-Oladunni"
@@ -91,7 +109,7 @@ const About = () => {
             <p className="py-1">Edwin Evbie</p>
             <p className="font-geistSemibold text-primary text-sm">COO</p>
           </figure>
-          <figure className="bg-[#022639] text-white w-full px-6 py-5 rounded-lg">
+          <figure className="bg-secondary text-white w-full px-6 py-5 rounded-lg">
             <img
               src={TEAM3}
               alt="Moyosola Niran-Oladunni"
@@ -102,14 +120,16 @@ const About = () => {
               Corporate Governance
             </p>
           </figure>
-          <figure className="bg-[#022639] text-white w-full px-6 py-5 rounded-lg">
+          <figure className="bg-secondary text-white w-full px-6 py-5 rounded-lg">
             <img
               src={TEAM4}
               alt="Moyosola Niran-Oladunni"
               className="w-[15rem] mx-auto"
             />
             <p className="py-1">Oladapo Oladunni</p>
-            <p className="font-geistSemibold text-primary text-sm">Head, BD strategy</p>
+            <p className="font-geistSemibold text-primary text-sm">
+              Head, BD strategy
+            </p>
           </figure>
         </div>
       </div>
