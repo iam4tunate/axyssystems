@@ -74,7 +74,7 @@ const Home = () => {
               combines cutting-edge technology with industry expertise to create
               scalable and robust software solutions.
             </p>
-            <img src={CORE4} alt="" className="mt-4" />
+            <img src={CORE4} alt="" className="mt-6" />
           </div>
           <div className="">
             <h2 className="text-primary text-2xl font-clashSemibold pb-2">
@@ -87,7 +87,7 @@ const Home = () => {
               the efficiency of operational procedures for businesses facing
               challenges.
             </p>
-            <img src={CORE1} alt="" className="mt-4" />
+            <img src={CORE1} alt="" className="mt-6" />
           </div>
           <div className="">
             <h2 className="text-primary text-2xl font-clashSemibold pb-2">
@@ -99,7 +99,7 @@ const Home = () => {
               high-net-worth individuals and organizations across Africa,
               Europe, and America.
             </p>
-            <img src={CORE2} alt="" className="mt-4" />
+            <img src={CORE2} alt="" className="mt-6" />
           </div>
           <div className="">
             <h2 className="text-primary text-2xl font-clashSemibold pb-2">
@@ -111,49 +111,25 @@ const Home = () => {
               managing both public and private assets with efficiency and
               innovation.
             </p>
-            <img src={CORE3} alt="" className="mt-4" />
+            <img src={CORE3} alt="" className="mt-6" />
           </div>
         </div>
       </div>
       {/* OUR CLIENTS/PATNERS */}
-      <div className="pt-12 pb-16 bg-gray-200">
+      <div className="pt-12 pb-16 bg-gray-100">
         <h3 className="text-primary text-2xl font-clashSemibold pb-8 text-center mx-auto padX">
           OUR CLIENTS/PATNERS
         </h3>
         <div className="max-w-screen-md mx-auto flex flex-wrap items-center justify-center gap-x-10 gap-y-12">
-          <img
-            src={osunstate}
-            alt=""
-            className="w-[7rem] max-md:w-[6rem]"
-          />
-          <img
-            src={cubegroup}
-            alt=""
-            className="w-[16rem] max-md:w-[10rem]"
-          />
+          <img src={osunstate} alt="" className="w-[7rem] max-md:w-[6rem]" />
+          <img src={cubegroup} alt="" className="w-[16rem] max-md:w-[10rem]" />
           <img src={fhc} alt="" className="w-[6rem] max-md:w-[5rem]" />
-          <img
-            src={heirs}
-            alt=""
-            className="w-[10rem] max-md:w-[9rem]"
-          />
-          <img
-            src={zenith}
-            alt=""
-            className="w-[6rem] max-md:w-[5rem]"
-          />
-          <img
-            src={abujacourt}
-            alt=""
-            className="w-[16rem]"
-          />
+          <img src={heirs} alt="" className="w-[10rem] max-md:w-[9rem]" />
+          <img src={zenith} alt="" className="w-[6rem] max-md:w-[5rem]" />
+          <img src={abujacourt} alt="" className="w-[16rem]" />
           <img src={ferma} alt="" className="w-[6rem]" />
           <img src={wema} alt="" className="w-[10rem]" />
-          <img
-            src={roaddynamics}
-            alt=""
-            className="w-[6rem] max-md:w-[5rem]"
-          />
+          <img src={roaddynamics} alt="" className="w-[6rem] max-md:w-[5rem]" />
           <img src={secureID} alt="" className="w-[12rem] py-2 px-4 bg-black" />
           <img src={providus} alt="" className="w-[12rem] max-md:w-[10rem]" />
         </div>
