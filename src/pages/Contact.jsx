@@ -24,7 +24,7 @@ const Contact = () => {
       </div>
 
       {/* CONTACT FORM  */}
-      <div className="max-w-screen-xl mx-auto py-16 padX">
+      <div className="container mx-auto py-16 padX">
         <div className="grid grid-cols-[40%_50%] max-md:grid-cols-1 max-md:gap-y-8 items-start justify-between gap-x-12">
           <div className="max-md:w-[70%] max-sm:w-full">
             <h3 className="text-primary text-2xl font-clashSemibold pb-4 uppercase">

@@ -26,7 +26,7 @@ const About = () => {
         </div>
       </div>
       {/* INTRODUCTION  */}
-      <div className="maxW text-center pt-16 max-sm:pt-12 padX">
+      <div className="max-w-screen-md mx-auto text-center pt-16 max-sm:pt-12 padX">
         <p className="py-1.5 leading-relaxed">
           <span className="text-primary text-2xl font-clashSemibold pb-3 block">
             About Axys Systems.
@@ -68,7 +68,7 @@ const About = () => {
           infrastructure.
         </p>
       </div>
-      <div className="maxW text-center py-16 max-sm:py-12 padX">
+      <div className="max-w-screen-md mx-auto text-center py-16 max-sm:py-12 padX">
         <h3 className="text-primary text-2xl font-clashSemibold pb-4">
           Our Core Values
         </h3>
