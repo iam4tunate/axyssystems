@@ -20,7 +20,6 @@ import zenith from '../assets/images/zenith.png';
 import wema from '../assets/images/wema.svg';
 import providus from '../assets/images/providus.png';
 import { Activity } from '../components/Activity';
-// import Marquee from "react-fast-marquee";
 
 const Home = () => {
   return (
@@ -132,48 +131,6 @@ const Home = () => {
           <img src={secureID} alt='' className='w-[12rem] py-2 px-4 bg-black' />
           <img src={providus} alt='' className='w-[12rem] max-md:w-[10rem]' />
         </div>
-        {/* <Marquee className="space-x-20">
-          <img
-            src={osunstate}
-            alt=""
-            className="w-[7rem] max-sm:w-[6rem]  mr-20 max-md:mr-16"
-          />
-          <img
-            src={cubegroup}
-            alt=""
-            className="w-[16rem] max-sm:w-[12rem] mr-20 max-md:mr-16"
-          />
-          <img
-            src={fhc}
-            alt=""
-            className="w-[5rem] mr-20 max-md:mr-16"
-          />
-          <img
-            src={heirs}
-            alt=""
-            className="w-[10rem] max-sm:w-[9rem] mr-20 max-md:mr-16"
-          />
-          <img
-            src={abujacourt}
-            alt=""
-            className="w-[16rem] mr-20 max-md:mr-16"
-          />
-          <img
-            src={ferma}
-            alt=""
-            className="w-[5rem] mr-20 max-md:mr-16"
-          />
-          <img
-            src={roaddynamics}
-            alt=""
-            className="w-[5rem] mr-20 max-md:mr-16"
-          />
-          <img
-            src={secureID}
-            alt=""
-            className="w-[12rem] py-2 px-4 bg-black"
-          />
-        </Marquee> */}
       </div>
     </Layout>
   );
