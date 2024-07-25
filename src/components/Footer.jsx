@@ -18,13 +18,13 @@ const Footer = () => {
           <p className="pt-3 text-primary text-sm">
             CAC Reg No: <span className="tracking-wider">961438</span>
           </p>
-          <p className="block text-primary pt-12 max-lg:pt-6 max-sm:pt-2 text-sm">
+          <p className="block text-primary pt-12 max-lg:pt-6 max-sm:pt-2 text-xs">
             Copyright &copy; 2024 All Right Reserved
           </p>
         </div>
         <div className="max-lg:mx-auto max-sm:mx-0">
-          <ul className="space-y-5">
-            <li className="font-geistSemibold text-lg">Quicklink</li>
+          <ul className="space-y-5 text-sm">
+            <li className="font-geistSemibold text-base">Quicklink</li>
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -40,8 +40,8 @@ const Footer = () => {
           </ul>
         </div>
         <div className="">
-          <ul className="space-y-2">
-            <li className="font-geistSemibold pb-2 text-lg">Contact Info</li>
+          <ul className="space-y-2 text-sm">
+            <li className="font-geistSemibold pb-2 text-base">Contact Info</li>
             <li className="flex items-center gap-x-3 pb-2">
               <MdMail className="text-xl" />
               <span>info@axyssystems.com.ng</span>

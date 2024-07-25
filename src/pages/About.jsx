@@ -75,23 +75,23 @@ const About = () => {
         <div className="flex flex-wrap items-center max-sm:justify-start max-sm:text-left gap-x-14 gap-y-5 justify-center">
           <div className="flex items-center gap-x-2">
             <img src={FLAG} alt="" />
-            <span>Customer and client focus</span>
+            <p>Customer and client focus</p>
           </div>
           <div className="flex items-center gap-x-2">
             <img src={FLAG} alt="" />
-            <span>Goal focus</span>
+            <p>Goal focus</p>
           </div>
           <div className="flex items-center gap-x-2">
             <img src={FLAG} alt="" />
-            <span>Dynamism and proactiveness</span>
+            <p>Dynamism and proactiveness</p>
           </div>
           <div className="flex items-center gap-x-2">
             <img src={FLAG} alt="" />
-            <span>Efficient and effective service delivery</span>
+            <p>Efficient and effective service delivery</p>
           </div>
           <div className="flex items-center gap-x-2">
             <img src={FLAG} alt="" />
-            <span>Teamwork</span>
+            <p>Teamwork</p>
           </div>
         </div>
       </div>

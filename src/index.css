@@ -23,13 +23,16 @@
   body {
     @apply font-geist overflow-x-hidden text-base;
   }
+  p {
+    @apply font-geistLight;
+  }
+}
 
-  @layer utilities {
-    .maxW {
-      @apply max-w-screen-xl mx-auto w-full;
-    }
-    .padX {
-      @apply px-12 max-xl:px-8 max-md:px-4;
-    }
+@layer utilities {
+  .maxW {
+    @apply max-w-screen-xl mx-auto w-full;
+  }
+  .padX {
+    @apply px-12 max-xl:px-8 max-md:px-4;
   }
 }

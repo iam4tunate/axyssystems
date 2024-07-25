@@ -40,14 +40,14 @@ const Home = () => {
             </span>
           </h1>
           <p className='text-white text-2xl max-sm:text-lg max-[370px]:text-base w-[70%] max-md:w-[90%] max-sm:w-full'>
-            From Digital solutions to brand development, we&apos;re your partner
+            From digital solutions to brand development, we&apos;re your partner
             from start-up, innovation, and holistic growth.
           </p>
         </div>
       </div>
       {/* INTRODUCTION  */}
       <div className='max-w-screen-md mx-auto text-center pt-16 pb-12 padX'>
-        <h3 className='text-primary text-2xl font-clashSemibold pb-4'>
+        <h3 className='text-primary text-2xl font-clashSemibold pb-2'>
           Welcome to Axys Systems & Solutions Limited
         </h3>
         <p className=''>
@@ -63,19 +63,19 @@ const Home = () => {
           Our Core Business Activities
         </div>
         <div className='space-y-24 max-lg:space-y-20 max-md:space-y-16 max-sm:space-y-12 pt-12'>
-          <div className='grid grid-cols-2 gap-x-12 gap-y-14'>
+          <div className='grid grid-cols-2 max-md:grid-cols-1 gap-x-12 gap-y-14'>
             <Activity
-              heading='Digital Solutions Development, Deployment and Support:'
+              heading='Digital Solutions Development, Deployment and Support'
               paragraph='Axys Systems & Solutions delivers comprehensive digital software solutions, offering customized, scalable solutions leveraging cutting-edge technology and industry exrtise.'
               image={CORE4}
             />
             <Activity
-              heading='Business Development and Process Re-engineering:'
+              heading='Business Development and Process Re-engineering'
               paragraph='We excel in transforming ideas into profitable ventures, providing expert investment guidance for high returns, and optimizing operational efficiency through process reengineering for challenged businesses..'
               image={CORE1}
             />
             <Activity
-              heading='Property Development:'
+              heading='Property Development'
               paragraph='From sourcing prime properties to facilitating rent, lease, or
                 outright purchase, our property development unit serves
                 high-net-worth individuals and organizations across Africa,
@@ -83,7 +83,7 @@ const Home = () => {
               image={CORE2}
             />
             <Activity
-              heading='Infrastructure and Facility Management:'
+              heading='Infrastructure and Facility Management'
               paragraph='Leveraging business concepts like Build Operate and Transfer
                 (BOT), Public Private Partnership (PPP), and more, we excel in
                 managing both public and private assets with efficiency and
@@ -91,22 +91,22 @@ const Home = () => {
               image={CORE3}
             />
             <Activity
-              heading='Access Control:'
-              paragraph='Technology-driven automated entrances for seamless building access, improving accessibility, energy efficiency, and reducing labor costs'
+              heading='Access Control System'
+              paragraph='Advanced technology for secure facilities, providing multi-factor authentication, intrusion detection, enhanced security, convenience, and reduced security risk.'
               image={CORE7}
             />
             <Activity
-              heading='Automated Entrances:'
+              heading='Automated Entrances'
               paragraph='Technology-driven automated entrances for seamless building access, improving accessibility, energy efficiency, and reducing labor costs'
               image={CORE5}
             />
             <Activity
-              heading='Toll Roads & Traffic Management:'
+              heading='Toll Roads & Traffic Management'
               paragraph='Managed toll infrastructure and traffic systems using advanced technologies for optimal travel and maintenance'
               image={CORE6}
             />
             <Activity
-              heading='Car Parking System:'
+              heading='Car Parking System'
               paragraph='Integrated hardware and software for seamless parking, optimizing operations and user satisfaction.'
               image={CORE8}
             />
