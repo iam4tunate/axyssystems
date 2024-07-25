@@ -63,7 +63,7 @@ const Home = () => {
           Our Core Business Activities
         </div>
         <div className='space-y-24 max-lg:space-y-20 max-md:space-y-16 max-sm:space-y-12 pt-12'>
-          <div className='grid grid-cols-2 max-md:grid-cols-1 gap-x-12 gap-y-14'>
+          <div className='grid grid-cols-2 max-md:grid-cols-1 gap-x-12 gap-y-20'>
             <Activity
               heading='Digital Solutions Development, Deployment and Support'
               paragraph='Axys Systems & Solutions delivers comprehensive digital software solutions, offering customized, scalable solutions leveraging cutting-edge technology and industry exrtise.'
